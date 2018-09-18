@@ -1,0 +1,354 @@
+
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Image Gallery</title>
+  
+    
+    <link rel="stylesheet" href="css/animate.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+	 <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+ <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+
+  
+</head>
+
+<body style="h" onload="SetDivContent();">
+
+
+
+
+
+
+ 
+  <div id="container">
+  <h1>BOSM </h1>
+  <h1>BOSM </h1>
+  <h1>BOSM </h1>
+ 
+</div>
+  
+
+
+<img src="Baxter-Eyebrows.svg" style="position: absolute; top:-10%; left: -10%; height: 50%; width: 50%; float: left;" class="wow fadeIn" id="svg_1">
+<img src="bg.svg" style="position: absolute; top:40%; left: 0; height: 100%; width: 50%; float: left;" class=" wow fadeIn"id="svg_2">
+<img src="yy.svg" style="position: absolute; top:280%; right: 0; height: 100%; width: 45%; float: right;" class=" wow fadeIn" id="svg_3">
+
+
+  <div id="wrap">
+	<!-- Define all of the tiles: -->
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="1" id="myImg1"  class="image"onclick="imgClick(this)" >
+		
+		</div>
+	</div>
+		<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="2" id="myImg2"  class="image"onclick="imgClick(this)" >
+		
+		</div>
+	</div>
+		<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="3" id="myImg3"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+		<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="4" id="myImg4"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+		<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="5" id="myImg5"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+		<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="6" id="myImg6"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+		<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="7" id="myImg7"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInRight" >
+			<img src="" value="8" id="myImg8"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="9" id="myImg9"  class="image"onclick="imgClick(this)">
+		
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="10" id="myImg10" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="11" id="myImg11" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="12" id="myImg12" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	
+
+</div>
+  
+  
+<br><br><br><br>
+<br><br><br><br>
+
+
+  <div id="wrap_2">
+	<!-- Define all of the tiles: -->
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="13" id="myImg13" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="14" id="myImg14" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="15" id="myImg15" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="16" id="myImg16" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="17" id="myImg17" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="18" id="myImg18" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	
+
+</div>
+
+
+
+
+
+<br><br><br><br>
+<br><br><br><br>
+<img src="yy2.svg" style="position: absolute; top:390%; left: 0; height: 130%; width: 40%; float: left;" class="wow fadeIn" id="svg_4">
+  <div id="wrap_3">
+	<!-- Define all of the tiles: -->
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="19" id="myImg19" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="20" id="myImg20" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="21" id="myImg21" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="22" id="myImg22" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInLeft">
+			<img src="" value="23" id="myImg23" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner wow bounceInRight">
+			<img src="" value="24" id="myImg24" class="image" onclick="imgClick(this)">
+		
+		</div>
+	</div>
+
+	
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+	 <script type="text/javascript" src="firebase.js"></script>
+
+	 <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+
+<script>
+
+  //  var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+// var img = document.getElementById('myImg');
+// var modalImg = document.getElementById("img01");
+// img.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = this.src;
+//     console.log("src");
+
+//}
+ var modal = document.getElementById('myModal');
+var modalImg = document.getElementById("img01");
+function imgClick(select){
+	var img_ = select.value;
+	var div =document.getElementById('myImg'+img_);
+	     modal.style.display = "block";
+         modalImg.src=select.src;
+
+
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+    </script>
+    <!--
+    	<div class="show">
+  <div class="overlay"></div>
+  <div class="img-show">
+    <span>X</span>
+    <img src="">
+  </div>
+</div>
+  
+
+
+    <script type="text/javascript">
+    	
+
+    	$(function () {
+    "use strict";
+    
+    $(".boxInner img").click(function () {
+        var $src = $(this).attr("src");
+        $(".show").fadeIn();
+        $(".img-show img").attr("src", $src);
+    });
+    
+    $("span, .overlay").click(function () {
+        $(".show").fadeOut();
+    });
+    
+});
+    </script>
+-->
+
+
+<script type="text/javascript">
+// window.onload=SetDivContent();
+var date=new Date();
+var year=date.getFullYear();
+var month = date.getMonth();
+var day = date.getDate(); 
+
+console.log(date);
+
+console.log(day);
+function SetDivContent() {
+	console.log(date);
+	console.log(day);
+	console.log(month);
+	console.log(year);
+    if (year==2018 && month==8) {
+        if (day==19) { 
+
+        	     document.getElementById("svg_3").style.display="none";
+        	     document.getElementById("svg_4").style.display="none";
+
+        	     document.getElementById("wrap_1").style.visibility="none";
+        	     document.getElementById("wrap_2").style.visibility="none";
+        	     document.getElementById("wrap_3").style.visibility="none";
+            
+        }
+        else if (day==20) { 
+        	  document.getElementById("svg_4").style.display="none";
+        	  
+                    }
+      
+    }
+    else {
+    	console.log(day);
+    	console.log("jdbc");
+    	       
+
+    	 
+        	
+}}
+
+</script>
+
+</body>
+
+</html>
